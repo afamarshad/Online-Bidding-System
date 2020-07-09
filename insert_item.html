@@ -1,0 +1,330 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <title>Add Item</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="Libraries/font-awesome-4.7.0/css/font-awesome.css">
+
+    <!-- Bootstrap core CSS -->
+    <link href="Libraries/Bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Material Design Bootstrap -->
+    <link href="Libraries/MDB/css/mdb.minpro.css" rel="stylesheet">
+
+    <style type="text/css">
+        label {
+    width:180px;
+    clear:left;
+    text-align:right;
+    padding-right:50px;
+        }
+
+    input, label {
+    float:left;
+     }
+    </style>
+
+</head>
+
+<body class="fixed-sn mdb-skin">
+    
+    <!--Double navigation-->
+    <header>
+        <!-- Sidebar navigation -->
+        <div id="slide-out" class="side-nav sn-bg-4 fixed">
+            <ul class="custom-scrollbar">
+                <!-- Logo -->
+                <li>
+                    <div class="logo-wrapper waves-light">
+                        <a href="#"><img src="https://mdbootstrap.com/img/logo/mdb-transparent.png" class="img-fluid flex-center"></a>
+                    </div>
+                </li>
+                <!--/. Logo -->
+                <!--Social-->
+                <li>
+                    <ul class="social">
+                        <li><a href="#" class="icons-sm fb-ic"><i class="fa fa-facebook"> </i></a></li>
+                        <li><a href="#" class="icons-sm tw-ic"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#" class="icons-sm gplus-ic"><i class="fa fa-google-plus"> </i></a></li>
+                        <li><a href="#" class="icons-sm ln-ic"><i class="fa fa-linkedin"> </i></a></li>
+                    </ul>
+                </li>
+                <!--/Social-->
+                <!--Search Form-->
+                <li>
+                    <form class="search-form" role="search">
+                        <div class="form-group md-form mt-0 pt-1 waves-light">
+                            <input type="text" class="form-control" placeholder="Search">
+                        </div>
+                    </form>
+                </li>
+                <!--/.Search Form-->
+                <!-- Side navigation links -->
+                <li>
+                    <ul class="collapsible collapsible-accordion">
+                        <li><a class="collapsible-header waves-effect arrow-r" href="Home.html"><i class="fa fa-home"></i>Home</a>
+                            
+                        </li>
+                        <li><a class="collapsible-header waves-effect arrow-r"><i class="fa fa-user"></i> Account<i class="fa fa-angle-down rotate-icon"></i></a>
+                            <div class="collapsible-body">
+                                <ul class="list-unstyled">
+                                    <li><a href="#" class="waves-effect">Login</a>
+                                    </li>
+                                    <li><a href="#" class="waves-effect">Registration</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a class="collapsible-header waves-effect arrow-r"><i class="fa fa-eye"></i> About us<i class="fa fa-angle-down rotate-icon"></i></a>
+                            <div class="collapsible-body">
+                                <ul class="list-unstyled">
+                                    <li><a href="About us.html" class="waves-effect">Introduction</a>
+                                    </li>
+                                    <li><a href="Team.html" class="waves-effect">Team</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a class="collapsible-header waves-effect arrow-r"><i class="fa fa-envelope"></i> Customer Care<i class="fa fa-angle-down rotate-icon"></i></a>
+                            <div class="collapsible-body">
+                                <ul class="list-unstyled">
+                                    <li><a href="Contact-us.html" class="waves-effect">Contact us</a>
+                                    </li>
+                                    <li><a href="#" class="waves-effect">FAQ</a>
+                                    </li>
+                                    </li>
+                                    <li><a href="Term_of_use.html" class="waves-effect">Term of Use</a>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                <!--/. Side navigation links -->
+            </ul>
+            <div class="sidenav-bg mask-strong"></div>
+        </div>
+        <!--/. Sidebar navigation -->
+        <!-- Navbar -->
+        <nav class="navbar fixed-top navbar-toggleable-md navbar-expand-lg scrolling-navbar double-nav">
+            <!-- SideNav slide-out button -->
+            <div class="float-left">
+                <a href="#" data-activates="slide-out" class="button-collapse"><i class="fa fa-bars"></i></a>
+            </div>
+            <!-- Breadcrumb-->
+            <div class="breadcrumb-dn mr-auto">
+                <img src="logo.png" height="70" width="150">
+            </div>
+            <ul class="nav navbar-nav nav-flex-icons ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="Contact-us.html"><i class="fa fa-envelope"></i> <span class="clearfix d-none d-sm-inline-block">Contact</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"><i class="fa fa-comments-o"></i> <span class="clearfix d-none d-sm-inline-block"> Help and Support</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"><i class="fa fa-user"></i> <span class="clearfix d-none d-sm-inline-block">Account</span></a>
+                </li>
+<!--
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+-->
+            </ul>
+        </nav>
+        <!-- /.Navbar -->
+    </header>
+    <!--/.Double navigation-->
+    
+    <!--Main layout-->
+    <main>
+      <br><br>  
+  <center> <h1 style="font-family: Times;font-size: 80px;font-style: italic;"> Add Item </h1> <hr> </center>     
+   <br>
+   <div style="border-style: solid; border-color: silver;padding-left: 200px; padding-top: 50px;">
+<label> Item Name </label>
+<input type="text" name="item_name" id="item_name">
+<br><br>
+<label>Item Photo </label>
+<input type="file" name="item_photo" id="item_photo">
+<br><br>
+<label>Item Description</label>
+<input type="text" name="item_description" id="item_description">
+<br> <br>
+
+<div class="container">
+  
+  <div class="dropdown">
+  <label> Category </label>
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+      Select Category
+    </button>
+    <div class="dropdown-menu dropdown-menu-right">
+      <a class="dropdown-item" href="#">Bikes</a>
+      <a class="dropdown-item" href="#">Cars</a>
+      <a class="dropdown-item" href="#">Computing Devices</a>
+      <a class="dropdown-item" href="#">Mobile Phones</a>
+      <a class="dropdown-item" href="#">Home Appliances</a>
+      <a class="dropdown-item" href="#">Watches</a>
+    </div>
+  </div>
+</div>
+<br>
+<label>Starting Bid Price</label>
+<input type="text" name="price" id="price">
+<br><br>
+<label>Starting Date For Bidding</label>
+<input type="text" name="start_date" id="start_date">
+<br><br>
+<label>Ending Date For Bidding</label>
+<input type="text" name="end_date" id="end_date">
+<br><br><br>
+<button type="button" class="btn btn-secondary" style="margin-left: 500px;margin-bottom: 40px;" >Add Item</button>
+    <!--Main layout-->
+</div>      
+
+        
+    </main>
+    <!--/Main layout-->
+    <br><br><br><br>
+    <!--Footer-->
+    <footer class="page-footer text-center text-md-left pt-4">
+
+        <!--Footer Links-->
+        <div class="container-fluid">
+            <div class="row">
+
+                <!--First column-->
+                <div class="col-md-3">
+                    <h5 class="text-uppercase font-weight-bold mb-4">Online Bidding System</h5>
+                    <p>At eBid, we believe that no matter what business you're in, it's about People! Our ultimate goal is to build a company that provides intrinsic value to everyone involved.</p>
+                </div>
+                <!--/.First column-->
+
+                <hr class="w-100 clearfix d-md-none">
+
+                <!--Second column-->
+                <div class="col-md-2 mx-auto">
+                    <h5 class="text-uppercase font-weight-bold mb-4">Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#!">Site Map</a></li>
+                        <li><a href="#!">About us</a></li>
+                        <li><a href="#!"></a></li>
+                        <li><a href="#!"></a></li>
+                    </ul>
+                </div>
+                <!--/.Second column-->
+
+                <hr class="w-100 clearfix d-md-none">
+
+                <!--Third column-->
+                <div class="col-md-2 mx-auto">
+                    <h5 class="text-uppercase font-weight-bold mb-4">Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#!">Contact us</a></li>
+                        <li><a href="#!">Term of uses</a></li>
+                        <li><a href="#!"></a></li>
+                        <li><a href="#!"></a></li>
+                    </ul>
+                </div>
+                <!--/.Third column-->
+
+                <hr class="w-100 clearfix d-md-none">
+
+                <!--Fourth column-->
+                <div class="col-md-2 mx-auto">
+                    <h5 class="text-uppercase font-weight-bold mb-4">Info</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#!"><i class="fa fa-home"></i>&nbsp;&nbsp;Karachi,13-Stadium Road, Pakistan</a></li><br>
+                        <li><a href="#!"><i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp;&nbsp;info@ebid.com</a></li><br>
+                        <li><a href="#!"><i class="fa fa-mobile" aria-hidden="true"></i>&nbsp;&nbsp;+92 347 2435865</a></li><br>
+                        <li><a href="#!"><i class="fa fa-fax" aria-hidden="true"></i>&nbsp;&nbsp; + 01 34724 35865</a></li><br>
+                    </ul>
+                </div>
+                <!--/.Fourth column-->
+
+            </div>
+        </div>
+        <!--/.Footer Links-->
+
+        <hr>
+
+        <!--Call to action-->
+        <div class="call-to-action text-center my-4">
+            <ul class="list-unstyled list-inline">
+                <li class="list-inline-item">
+                    <h5>Register for free</h5>
+                </li>
+                <li class="list-inline-item"><a href="" class="btn btn-primary">Sign up!</a></li>
+            </ul>
+        </div>
+        <!--/.Call to action-->
+
+        <hr>
+
+        <!--Social buttons-->
+        <div class="social-section text-center">
+            <ul class="list-unstyled list-inline">
+                <li class="list-inline-item"><a class="btn-floating btn-fb"><i class="fa fa-facebook"> </i></a></li>
+                <li class="list-inline-item"><a class="btn-floating btn-tw"><i class="fa fa-twitter"> </i></a></li>
+                <li class="list-inline-item"><a class="btn-floating btn-gplus"><i class="fa fa-google-plus"> </i></a></li>
+                <li class="list-inline-item"><a class="btn-floating btn-li"><i class="fa fa-linkedin"> </i></a></li>
+                <li class="list-inline-item"><a class="btn-floating btn-git"><i class="fa fa-github"> </i></a></li>
+            </ul>
+        </div>
+        <!--/.Social buttons-->
+
+        <!--Copyright-->
+        <div class="footer-copyright py-3 text-center">
+            <div class="container-fluid">
+                © 2018 Copyright: <a href="Home.html"> Online E-bidding </a>
+
+            </div>
+        </div>
+        <!--/.Copyright-->
+
+    </footer>
+    <!--/.Footer-->
+
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="Libraries/Jquery/jquery-3.2.1.min.js"></script>
+
+    <!-- Tooltips -->
+    <script type="text/javascript" src="/Libraries/package/dist/popper.min.js"></script>
+
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="Libraries/Bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="Libraries/MDB/js/mdb.minpro.js"></script>  
+    <script>
+
+        // SideNav Initialization
+        $(".button-collapse").sideNav();
+        
+        new WOW().init();
+    
+    </script>
+
+</body>
+
+</html>
